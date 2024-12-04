@@ -1,0 +1,13 @@
+ancestor: null
+releases:
+  0.1.0:
+    changes:
+      release_summary: This is the first release ever of andersson007.my_collection
+        collection.
+    fragments:
+    - 0.1.0.yml
+    modules:
+    - description: A dummy module.
+      name: dummy
+      namespace: ''
+    release_date: '2024-12-04'
