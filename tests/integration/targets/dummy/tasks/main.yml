@@ -1,7 +1,7 @@
 - name: Devide by zero
   register: result
   ignore_errors: true
-  my_namespace.my_collection.dummy:
+  andersson007.my_collection.dummy:
     dividend: 4
     divisor: 0
 
@@ -13,7 +13,7 @@
 
 - name: Devide a by b
   register: result
-  my_namespace.my_collection.dummy:
+  andersson007.my_collection.dummy:
     dividend: 4
     divisor: 2
 

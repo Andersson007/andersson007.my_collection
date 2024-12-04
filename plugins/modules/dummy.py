@@ -40,7 +40,7 @@ options:
 EXAMPLES = r'''
 - name: Divide a by b
   register: result
-  my_namespace.my_collection.dummy:
+  andersson007.my_collection.dummy:
     dividend: 4
     divisor: 2
 
